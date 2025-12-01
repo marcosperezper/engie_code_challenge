@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  engie-api:
+    build: .
+    container_name: engie-production-plan
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1

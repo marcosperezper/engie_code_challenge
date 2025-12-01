@@ -1,12 +1,16 @@
-
-.venv/
-
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.pyc
+*.pytest_cache/
 
+.venv/
 .idea/
 
-tests/__pycache__/
+*.log
+*.pid
+*.sock
+*.pid.lock
 
+tests/__pycache__/

@@ -81,3 +81,8 @@ To run the tests run this command:
 ```commandline
 pytest -v tests/
 ```
+
+## Run with Docker and Docker Compose
+```commandline
+docker-compose up --build
+```
