@@ -31,7 +31,6 @@ def test_production_plan_endpoint():
     for item in data:
         assert "name" in item
         assert "p" in item
-        # Power should not be negative
         assert item["p"] >= 0
 
     total_power = sum(item["p"] for item in data)
